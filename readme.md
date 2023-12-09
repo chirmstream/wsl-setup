@@ -44,3 +44,6 @@ Check wsl version:
 Update WSL:
 
     wsl.exe --update
+
+# Troubleshooting:
+You may need to search for `Turn Windows features on or off` and check that `Virtual Machine Platform` and `Windows Subsystem for Linux` are both enabled, then reboot.
